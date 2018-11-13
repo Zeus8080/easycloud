@@ -6,7 +6,7 @@
     <groupId>com.zhu</groupId>
     <artifactId>easycloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>easycloud</name>
     <description>springcloud的测试工程</description>
@@ -19,8 +19,7 @@
     </parent>
 
     <modules>
-        <module>eureka-server</module>
-        <!--<module>service-hi</module>-->
+        <module>base</module>
     </modules>
 
     <properties>
